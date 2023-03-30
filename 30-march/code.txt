@@ -1,0 +1,30 @@
+MACHINE_FEATURES:remove  
+acpi
+alsa
+apm
+bluetooth
+efi
+ext2
+keyboard
+numa
+pcbios
+pci
+pcmcia
+phone
+qemu-usermode
+qvga
+rtc
+screen
+serial
+touchscreen
+usbgadget
+usbhost
+vfat
+wifi
+
+
+RDEPENDS:remove 
+meta-oe-image meta-networking-image-base meta-oe-image-base meta-oe-ptest-base meta-python-image meta-toolchain meta-world-pkgdata meta-multimedia-image-base 
+
+
+In both commands step by step remove one or two commands to continue build 
