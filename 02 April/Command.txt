@@ -1,0 +1,7 @@
+PACKAGECONF="--disable-libx11-trim,xserver-xorg-lite,xserver-kdrive,mesa-xlib,galago,gail,eggdbus,gcc,libgsmd,contacts, dates, tasks, eds-tools"
+
+DISTRO_FEATURES_BACKFILL_CONSIDERED = "pulseaudio gobject-introspection-data"
+
+DISTRO_FEATURES:remove = "alsa bluetooth pcmcia wifi zeroconf pci 3g nfc x11 evieext Gtk+ DirectFB libxfontcache xfontcacheproto libxp libxprintapputil libxprintutil printproto libxtrap xtrapproto linux-yocto 3.0 kernel lsbsetup matchbox-stroke matchbox-wm-2 / matchbox-theme-sato-2 mesa-xlib mutter orinoco-conf update-modules web xf86bigfontproto xf86rushproto zypper libzypp sat-solver"
+
+Try this commands in local conf step by step add or remove recipes 
