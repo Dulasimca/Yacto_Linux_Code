@@ -1,0 +1,1 @@
+Try DISTRO_FEATURES:remove MACHINE_FEATURES:remove this both commands with both set of recipes in auto & local conf files 
