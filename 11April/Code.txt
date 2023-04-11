@@ -1,0 +1,7 @@
+IMAGE_FEATURES:remove="allow-empty-password allow-root-login dbg-pkgs debug-tweaks dev-pkgs doc-pkgs empty-root-password lic-pkgs overlayfs-etc package-management post-install-logging ptest-pkgs read-only-rootfs read-only-rootfs-delayed-postinsts serial-autologin-root splash stateless-rootfs staticdev-pkgs hwcodecs nfs-server ssh-server-dropbear ssh-server-openssh tools-debug tools-sdk tools-testapps weston x11 x11-base x11-sato"
+
+
+SDKIMAGE_FEATURES:remove="python3-sentry-sdk core-image-base core-image-full-cmdline core-image-kernel-dev core-image-minimal core-image-minimal-dev core-image-minimal-mtdutils core-image-sato core-image-sato-dev core-image-sato-sdk core-image-testcontroller core-image-weston core-image-weston-sdk" 
+
+
+Try this commands with features for size reduction process

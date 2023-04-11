@@ -1,0 +1,206 @@
+Loading cache: 100% |#################################################################################################################################################################################| Time: 0:00:00
+Loaded 4027 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:00
+Parsing of 2575 .bb files complete (2574 cached, 1 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:02
+Sstate summary: Wanted 332 Local 0 Mirrors 0 Missed 332 Current 453 (0% match, 57% complete)
+NOTE: Executing Tasks
+WARNING: linux-mainline-5.11+gitAUTOINC+399fcd7052-r0 do_package_qa: QA Issue: File /usr/src/debug/linux-mainline/5.11+gitAUTOINC+399fcd7052-r0/drivers/tty/vt/consolemap_deftbl.c in package linux-mainline-src contains reference to TMPDIR
+File /usr/src/debug/linux-mainline/5.11+gitAUTOINC+399fcd7052-r0/lib/oid_registry_data.c in package linux-mainline-src contains reference to TMPDIR [buildpaths]
+WARNING: opensbi-1.1-r0 do_package_qa: QA Issue: File /share/opensbi/lp64/generic/firmware/fw_dynamic.elf in package opensbi contains reference to TMPDIR
+File /share/opensbi/lp64/generic/firmware/fw_jump.elf in package opensbi contains reference to TMPDIR
+File /share/opensbi/lp64/generic/firmware/fw_payload.elf in package opensbi contains reference to TMPDIR [buildpaths]
+WARNING: opensbi-1.1-r0 do_package_qa: QA Issue: File /share/opensbi/lp64/generic/firmware/.debug/fw_dynamic.elf in package opensbi-dbg contains reference to TMPDIR
+File /share/opensbi/lp64/generic/firmware/.debug/fw_jump.elf in package opensbi-dbg contains reference to TMPDIR
+File /share/opensbi/lp64/generic/firmware/.debug/fw_payload.elf in package opensbi-dbg contains reference to TMPDIR [buildpaths]
+NOTE: Tasks Summary: Attempted 2018 tasks of which 1427 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 2 seconds
+NOTE: Build completion summary:
+NOTE:   do_populate_sysroot: 0.0% sstate reuse(0 setscene, 48 scratch)
+NOTE:   do_package_qa: 0.0% sstate reuse(0 setscene, 70 scratch)
+NOTE:   do_package: 0.0% sstate reuse(0 setscene, 70 scratch)
+NOTE:   do_packagedata: 0.0% sstate reuse(0 setscene, 70 scratch)
+NOTE:   do_package_write_ipk: 0.0% sstate reuse(0 setscene, 70 scratch)
+
+Summary: There were 3 WARNING messages.
+
+
+
+Loading cache: 100% |#################################################################################################################################################################################| Time: 0:00:00
+Loaded 4027 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:00
+Parsing of 2575 .bb files complete (2574 cached, 1 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:02
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 785 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 2018 tasks of which 2018 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 1 seconds
+
+
+
+
+Loading cache: 100% |                                                                                                                                                                                | ETA:  --:--:--
+Loaded 0 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:23
+Parsing of 2575 .bb files complete (0 cached, 2575 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:01
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 785 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 2018 tasks of which 2018 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 1 seconds
+
+
+
+Loading cache: 100% |                                                                                                                                                                                | ETA:  --:--:--
+Loaded 0 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:23
+Parsing of 2575 .bb files complete (0 cached, 2575 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:01
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 785 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 2018 tasks of which 2018 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 1 seconds
+
+
+
+Loading cache: 100% |#################################################################################################################################################################################| Time: 0:00:00
+Loaded 4027 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:00
+Parsing of 2575 .bb files complete (2574 cached, 1 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:02
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 785 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 2018 tasks of which 2018 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 1 seconds
+
+
+Loading cache: 100% |                                                                                                                                                                                | ETA:  --:--:--
+Loaded 0 entries from dependency cache.
+Parsing recipes: 100% |###############################################################################################################################################################################| Time: 0:00:23
+Parsing of 2575 .bb files complete (0 cached, 2575 parsed). 4028 targets, 450 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.2.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "riscv64-oe-linux"
+MACHINE              = "chromite-h"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "riscv64"
+meta                 = "HEAD:6c9ca2f2de98c84d11beccbfde7c1e26cb25dfb6"
+meta-oe              
+meta-python          
+meta-multimedia      
+meta-networking      = "HEAD:b4ff73905b887cf7c489248de80dab2721090cbf"
+meta-riscv           = "HEAD:d5628ffd5adadb879dee96b3beb076ca2abfcf6d"
+meta-incoresemi      = "HEAD:9f91055ad87e6d7d385f1aaaecbab9c31f5b4cf3"
+
+Initialising tasks: 100% |############################################################################################################################################################################| Time: 0:00:02
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 785 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 2018 tasks of which 2018 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 1 seconds
+
+
